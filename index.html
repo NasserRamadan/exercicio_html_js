@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício HTML + JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nota de corte</h1>
+        <h2>Verifique se sua nota é suficiente para concluir o objetivo.</h2>
+        <form id="cut-note">
+            <input type="number" id="num1" required placeholder="Coloque aqui a nota de corte da instituição!"/>
+            <input type="number" id="num2" required placeholder="Coloque aqui a sua nota recebida!"/>
+            <button id="btn-note" type="submit">Calcule</button>
+
+        </form>
+        <p class="error-message">A nota não foi suficiente para o objetivo!</p>
+        <p class="success-message">A nota foi suficiente para o objetivo, parabéns!</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
